@@ -1,8 +1,8 @@
 ﻿// Задача 23: Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
 
-Console.WriteLine("Enter N:");
-int N = Convert.ToInt32(Console.ReadLine());
-GetTableOfCubes(N);
+Console.WriteLine("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+GetTableOfCubes(number);
 
 void GetTableOfCubes(int num)
 {
