@@ -14,7 +14,6 @@ int y2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Enter z2: ");
 int z2 = Convert.ToInt32(Console.ReadLine());
 
-
 double GetDistance(int x1, int y1, int z1, int x2, int y2, int z2)
 {
     double distance = 0;
